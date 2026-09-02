@@ -201,17 +201,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="reflection">
-        <p className="eyebrow">Final reflection</p>
-        <h2>Distance changes perspective. Zoom changes framing.</h2>
-        <p>
-          Across all three experiments, the camera position determined the
-          spatial relationship between objects. Focal length helped preserve
-          composition, but it could not undo the perspective created by where
-          the camera was placed.
-        </p>
-      </section>
-
       <footer>
         <span>CS 180 · Project 0</span>
         <span>YOUR NAME · 2026</span>

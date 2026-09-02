@@ -63,10 +63,6 @@ h2 { max-width: 900px; margin-bottom: 0; font-size: clamp(2.6rem, 6vw, 6.2rem); 
 .dolly-notes p { margin-bottom: 0; color: rgba(251, 250, 245, 0.72); line-height: 1.65; }
 .dolly-notes .lead { color: var(--paper-light); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.25rem, 2.2vw, 1.8rem); line-height: 1.45; }
 
-.reflection { padding: clamp(6rem, 12vw, 12rem) 9vw; background: var(--accent); color: #1d2825; }
-.reflection .eyebrow { color: #732114; }
-.reflection h2 { max-width: 1050px; }
-.reflection > p:last-child { max-width: 620px; margin: 3rem 0 0 auto; font-size: 1rem; line-height: 1.75; }
 footer { display: flex; justify-content: space-between; gap: 1rem; background: var(--ink); color: var(--paper-light); padding: 2rem 7vw; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
 @media (max-width: 760px) {
@@ -85,6 +81,6 @@ footer { display: flex; justify-content: space-between; gap: 1rem; background: v
 @media print {
   .site-header, .scroll-cue { display: none; }
   .hero { min-height: auto; }
-  .project-section, .photo-card, .dolly-frame, .reflection { break-inside: avoid; }
+  .project-section, .photo-card, .dolly-frame { break-inside: avoid; }
   * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
 }
