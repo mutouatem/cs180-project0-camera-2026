@@ -52,7 +52,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-kicker">
           <span>UC Berkeley · Fall 2026</span>
-          <span>YOUR NAME</span>
+          <span>huangjingzhe</span>
         </div>
         <div className="hero-grid">
           <div>
@@ -200,17 +200,19 @@ export default function Home() {
             approximately the same size in every frame.
           </p>
           <p>
-            The subject stays visually anchored while the background changes
-            scale, producing the characteristic “Vertigo” effect. Replace this
-            paragraph with details about your subject, number of frames, and
-            any alignment or cropping you performed.
+            I used a ceramic Cal mug as my subject and captured six frames while
+            moving the camera closer and zooming out to keep the mug approximately
+            the same size. I aligned the frames on the mug and applied a consistent
+            crop before assembling the looping GIF. The mug stays visually anchored
+            while the background changes in scale and perspective, producing the
+            characteristic Dolly Zoom effect.
           </p>
         </div>
       </section>
 
       <footer>
         <span>CS 180 · Project 0</span>
-        <span>YOUR NAME · 2026</span>
+        <span>huangjingzhe · 2026</span>
       </footer>
     </main>
   );
