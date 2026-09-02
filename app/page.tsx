@@ -160,8 +160,7 @@ export default function Home() {
               />
             </figure>
             <div className="caption-row">
-              <strong>Near-distance composition mockup</strong>
-              <span>Concept visualization · not a photograph</span>
+              <strong>Near-distance composition</strong>
             </div>
           </div>
         </div>
