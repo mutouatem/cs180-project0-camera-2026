@@ -139,25 +139,29 @@ export default function Home() {
 
         <div className="photo-pair landscape-pair">
           <div className="photo-card">
-            <PhotoPlaceholder
-              label="Far away + zoom"
-              filename="part2-telephoto.jpg"
-              ratio="landscape"
-            />
+            <figure>
+              <img
+                className="photo-image architecture-image"
+                src="/part2-original.jpg"
+                alt="Original photograph of Sather Tower"
+              />
+            </figure>
             <div className="caption-row">
-              <strong>Compressed</strong>
-              <span>Far position · zoomed in</span>
+              <strong>Far-distance photograph</strong>
+              <span>Original student photo</span>
             </div>
           </div>
           <div className="photo-card">
-            <PhotoPlaceholder
-              label="Walk closer + wide"
-              filename="part2-wide.jpg"
-              ratio="landscape"
-            />
+            <figure>
+              <img
+                className="photo-image architecture-image"
+                src="/part2-ai-mockup.png"
+                alt="AI-generated near-view composition mockup of Sather Tower"
+              />
+            </figure>
             <div className="caption-row">
-              <strong>Expanded</strong>
-              <span>Near position · no zoom</span>
+              <strong>Near-distance composition mockup</strong>
+              <span>AI visualization · not a photograph</span>
             </div>
           </div>
         </div>

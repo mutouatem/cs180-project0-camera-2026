@@ -51,6 +51,7 @@ h2 { max-width: 900px; margin-bottom: 0; font-size: clamp(2.6rem, 6vw, 6.2rem); 
 .photo-placeholder span { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.2rem, 2.2vw, 1.8rem); }
 .photo-placeholder small { margin-top: 0.45rem; font-family: var(--font-geist-mono), monospace; font-size: 0.66rem; }
 .photo-image { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.architecture-image { aspect-ratio: 3 / 4; }
 .caption-row { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--ink); margin-top: 0.75rem; padding-top: 0.75rem; font-size: 0.75rem; }
 .caption-row span { color: rgba(23, 39, 36, 0.62); text-align: right; }
 
