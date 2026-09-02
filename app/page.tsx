@@ -155,13 +155,13 @@ export default function Home() {
             <figure>
               <img
                 className="photo-image architecture-image"
-                src="/part2-ai-mockup.png"
-                alt="AI-generated near-view composition mockup of Sather Tower"
+                src="/part2-near-view.png"
+                alt="Near-view composition mockup of Sather Tower"
               />
             </figure>
             <div className="caption-row">
               <strong>Near-distance composition mockup</strong>
-              <span>AI visualization · not a photograph</span>
+              <span>Concept visualization · not a photograph</span>
             </div>
           </div>
         </div>
