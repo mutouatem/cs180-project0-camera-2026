@@ -161,7 +161,7 @@ export default function Home() {
             </figure>
             <div className="caption-row">
               <strong>Near-distance composition</strong>
-              <span>Concept visualization · not a photograph</span>
+
             </div>
           </div>
         </div>
