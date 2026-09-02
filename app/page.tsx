@@ -87,20 +87,26 @@ export default function Home() {
 
         <div className="photo-pair portrait-pair">
           <div className="photo-card">
-            <PhotoPlaceholder
-              label="Close + wide"
-              filename="part1-close.jpg"
-            />
+            <figure>
+              <img
+                className="photo-image"
+                src="/part1-close.jpg"
+                alt="Close-up wide-angle selfie"
+              />
+            </figure>
             <div className="caption-row">
               <strong>Close-up</strong>
               <span>Wide angle · short distance</span>
             </div>
           </div>
           <div className="photo-card offset-card">
-            <PhotoPlaceholder
-              label="Step back + zoom"
-              filename="part1-zoom.jpg"
-            />
+            <figure>
+              <img
+                className="photo-image"
+                src="/part1-zoom.jpg"
+                alt="Portrait taken from farther away with zoom"
+              />
+            </figure>
             <div className="caption-row">
               <strong>Stepped back</strong>
               <span>Telephoto · longer distance</span>
