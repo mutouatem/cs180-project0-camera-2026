@@ -58,7 +58,9 @@ h2 { max-width: 900px; margin-bottom: 0; font-size: clamp(2.6rem, 6vw, 6.2rem); 
 .observation p { margin-bottom: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.15rem, 2.1vw, 1.65rem); line-height: 1.5; }
 
 .dolly .eyebrow { color: #ff8a72; }
-.dolly-frame { max-width: 1180px; margin: 0 auto; }
+.dolly-frame { max-width: 960px; margin: 0 auto; }
+.dolly-media { margin: 0; overflow: hidden; border: 1px solid rgba(251, 250, 245, 0.28); background: #253632; }
+.dolly-media img { display: block; width: 100%; height: auto; }
 .dolly-notes { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 8vw; max-width: 980px; margin: clamp(3rem, 7vw, 6rem) 0 0 auto; border-top: 1px solid rgba(251, 250, 245, 0.35); padding-top: 1.4rem; }
 .dolly-notes p { margin-bottom: 0; color: rgba(251, 250, 245, 0.72); line-height: 1.65; }
 .dolly-notes .lead { color: var(--paper-light); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.25rem, 2.2vw, 1.8rem); line-height: 1.45; }

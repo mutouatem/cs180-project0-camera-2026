@@ -180,11 +180,12 @@ export default function Home() {
         </div>
 
         <div className="dolly-frame">
-          <PhotoPlaceholder
-            label="Animated Dolly Zoom"
-            filename="dolly-zoom.gif"
-            ratio="wide"
-          />
+          <figure className="dolly-media">
+            <img
+              src="/dolly-zoom.gif"
+              alt="Animated dolly zoom centered on a Cal mug"
+            />
+          </figure>
         </div>
 
         <div className="dolly-notes">
